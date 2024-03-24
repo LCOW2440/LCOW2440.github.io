@@ -1,0 +1,50 @@
+/*
+ Student Name: Jaiden Bose
+ File Name: training.html
+ Date: 18/03/2024
+*/
+
+
+/* Style for the table */
+.training-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Style for table caption */
+.training-table caption {
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 10px;
+    background-color: #6f1010;
+    border: 1px solid #ddd;
+}
+
+/* Style for table header cells */
+.training-table th {
+    background-color: #6f1010;
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+/* Style for table data cells */
+.training-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+/* Style for alternating rows */
+.training-table tbody tr:nth-child(even) {
+    background-color: #2f2d2d;
+}
+
+/* Highlight table row on hover */
+.training-table tbody tr:hover {
+    background-color: #727267;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}

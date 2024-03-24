@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!--
+ Student Name: Jaiden Bose
+ File Name: contacts.html
+ Date: 26/03/2024
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/contacts.css">
+    <title>Burnosi</title>
+</head>
+<body>
+
+    <header> 
+        <a href="index.html"><img src="images/banner.png" alt="Company Banner image" height="450" width="1500"></a>
+    </header>
+
+    <nav>
+        <div class="logo">
+            <a href="index.html"><img alt="logo" src="images/logo.png" width="350px" height="250px"></a>
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li> 
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="ourteam.html">Our Team</a></li>
+            <li><a href="specials.html">Specials</a></li>
+            <li><a href="training.html">Training</a></li>
+            <li><a href="media.html">Media</a></li>
+            <li><a href="faqs.html">FAQs</a> </li>
+            <li><a href="contacts.html">Contacts</a></li>       
+        </ul> 
+    </nav>
+
+    <main> 
+    <div>
+
+    <h1>Contact Us</h1>
+    
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Contact Information</legend>
+            
+            <ol>
+                <li>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </li>
+                <li>
+                    <label for="email">Email:</label>
+                    <input type="email" id="mail" name="mail" required>
+                </li>
+                <li>
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone">
+                </li>
+                <li>
+                    <label for="gender">Gender:</label>
+                    <input type="radio" id="male" name="gender" value="male">Male
+                    <input type="radio" id="female" name="gender" value="female">Female
+                </li>
+                <li>
+                    <label for="dob">Date of Birth:</label>
+                    <input type="date" id="dob" name="dob">
+                </li>
+                <li>
+                    <label for="reason">Reason for Contact:</label>
+                    <select id="reason" name="reason">
+                        <option value="support">Support</option>
+                        <option value="membership">Prime membership</option>
+                        <option value="question">Question</option>
+                        <option value="feedback">Feedback</option>
+                        <option value="complaint">Complaint</option>
+                    </select>
+                </li>
+                <li>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </li>
+                <li>
+                    <input type="checkbox" id="promotion" name="promotion" checked>
+                    <label for="promotion">Contact through Email for Promotions and Offers</label>
+                </li>
+            </ol>
+            
+            <button type="submit">Submit Request</button>
+            <button type="reset">Reset Form</button>
+        </fieldset>
+    </form>
+    </div>
+    </main>
+
+    <footer> 
+        <p>&#169; Copyright 2001. All Rights Reserved. </p> 
+        <p><a href="mailto:contact@wburnosi.net">Request Information</a></p>
+        <p>Jaiden Bose (c0933850)</p>
+    </footer>
+
+</body>
+</html>

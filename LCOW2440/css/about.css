@@ -1,0 +1,66 @@
+/*
+ Student Name: Jaiden Bose
+ File Name: about.css
+ Date: 18/03/2024
+*/
+
+/* Responsive styles */
+
+@media only screen and (max-width: 768px) {
+    /* Tablet styles */
+    main {
+        padding: 10px;
+    }
+
+    .banner {
+        padding: 20px;
+        width: 100%;
+        box-sizing: border-box; 
+        text-align: center; 
+    }
+
+    .banner img {
+        max-width: 100%;
+        height: auto;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+    /* Mobile styles */
+    header {
+        padding: 5px;
+    }
+
+    .banner {
+        padding: 20px;
+        width: 100%;
+        box-sizing: border-box; 
+        text-align: center; 
+    }
+
+    .banner img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .logo img{
+        max-width: 50%; 
+        height: auto;
+        display: block;
+        margin: 0 auto; 
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    main {
+        padding: 5px;
+    }
+
+    footer {
+        padding: 5px;
+    }
+}

@@ -1,0 +1,113 @@
+/*
+ Student Name: Jaiden Bose
+ File Name: styles.html
+ Date: 11/02/2024
+*/
+
+/* Style rules for body */
+body {
+    background-color: #000206;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f7f6f4;
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+/* Style rules for header */
+header {
+    background-color: #000000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #fff;
+    padding: 10px 0;
+}
+
+
+/* Style rules for navigation area and logo */
+nav {
+    background-color: #3d3b3b;
+    }
+    nav ul {
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+    }
+    nav li {
+    display: inline-block;
+    font-size: 1.25em;
+    font-family: Geneva, Arial, sans-serif;
+    font-weight: bold;
+    }
+    nav li a {
+    display: block;
+    color: #f7f6f4;
+    padding: 0.5em 2em;
+    text-decoration: none;
+    }
+    
+    .logo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 150px;
+        height: 150px;
+    }
+
+    
+/* Style rule for main content */
+main {
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+    font-size: 36px;
+    color: antiquewhite;
+}
+
+h3{
+    font-size: 20px;
+}
+
+.image-container {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center;
+}
+
+.image-container img {
+    max-width: 30%;
+    height: auto;   
+}
+
+
+/* Style elements for footer */
+footer {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #3d3b3b;
+    color: #f7f6f4;
+    padding: .25% 0%;
+}
+
+footer a {
+    color: #f7f6f4; 
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline; 
+}
